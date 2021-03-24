@@ -1,0 +1,254 @@
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+
+/*----Navigation bar-----*/
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto',sans-serif;
+}
+
+/*.navbar{
+	height: 12px;
+	display: flex;
+
+	align-items: center;
+	padding-top: 10px;
+	padding-right:30px;
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+	padding-top: 10px;
+	
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+	padding-top: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding-top: 10px;
+	
+}*/
+        html, body {
+            margin: 0;
+            padding: 0;
+            color: black;
+            background-color: white;
+        }
+        
+        /*.container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+			
+			
+        }*/
+
+        .ti {
+            padding-top: 40px;
+            text-align: center;
+			font-weight:bold;
+			
+        }
+
+        .articles {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+			margin-left:40px;
+			
+        }
+
+ .cart {
+            width: 100%;
+            margin-top: 10%;
+			height:auto;
+        }
+        .articles > div {
+            width: 200px;
+            margin: 20px;
+        }
+
+       /* img {
+            width: 100%;
+            border-radius: 20px;
+        }*/
+
+        .prod {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .tit {
+            width: 100%;
+			height:20px;
+            padding-left: 20px;
+	
+			
+        }
+        #price1, #price2, #price3, #price4 {
+            margin-right: 5px;
+        }
+
+        .inputs, input, select {
+            text-align: center;
+            border-radius: 10px;
+            margin-right: 10px;
+            margin-left: 1.5px;
+        }
+
+        input {
+            width: 50px;
+        }
+
+        .addTo {
+            position: relative;
+            left: 0px;
+            width: 100px;
+            height: 25px;
+            border-radius: 15px;
+            margin-top: 20px;
+            background-color:#197070;
+            color: white;
+            border-width: 0px;
+        }
+        
+        .addTo:hover {
+            background-image: none;
+            background-color: #197070;
+            box-shadow: 0 0 20px grey, 0 0 60px grey, 0 0 60px grey;
+        }
+
+        li {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        #message1, #message2, #message3, #message4 {
+            color: greenyellow;
+            text-align: center;
+        }
+
+        button {
+            position: right;
+     radius:20px;
+         border-radius: 40%;
+            color: aliceblue;
+            background-color: black;
+            border-width: 10px;
+        }
+
+        button:hover {
+            background-color: powderblue;
+        }
+		.card{
+	width:200px;
+	height:170px;
+	display:inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;	
+	background-position:center;
+	background-size:cover;
+	padding-top:10px;
+	transition:transform 0.5s;
+}
+.card:hover{
+	transform:translateY(-10px);
+}
+.vl {
+  border-left: 6px solid White;
+  height: 2500px;
+  position: absolute;
+  left: 50%;
+  margin-left: 280px;
+  margin-top:-2400px;
+  
+}
+div.kl {
+	margin-top:-2100px;
+  position: left;
+  Position:fixed;
+  width: 350px;
+  height:flex;
+  margin-left: 890px;
+border: 3px solid white ;
+}
+div.ex3 {
+  background-image:url(https://img.lovepik.com/photo/50169/1468.jpg_wh300.jpg);
+background-size: cover;
+background-position: center;
+  margin-top:0px;
+  position: left;
+  
+  width: 100%; 
+border: 3px solid white ;
+  
+}
+div.tit .h3{
+	position:fixed;
+}
+.sizing{
+	width:250px;
+	height:250px;
+	image-align:center;
+	
+}
+.align{
+	text-align:center;
+}
+.sect
+{
+	text-align:center;
+	background-color:#DCDCDC;
+	margin-top:5%;
+	margin-left:5%;
+	margin-right:5%;
+	border-radius:10px;
+	
+	
+	
+}
+.rows{
+	width:100%;
+	background-color:white;
+	display:flex;
+}
+.column
+{
+	width:50%;
+	text-align:center;
+	padding-left:12%;
+	padding-right:12%;
+	
+	
+	
+}
+.image{
+	border-radius:5px;
+}
+.content{
+
+padding:2%;}
+.sect:hover{
+	transform:translateY(-10px);
+}
+#orderplace
+{
+	height:20px;
+	width:10px;
+	color:white;
+	background-color:blue;
+}

@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Login Form</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="startcss.css" />
+<link rel="stylesheet" href="mainstyle.css" />
+<link rel="stylesheet" href="headerandfooter.css" />
+<style type='text/css'>
+    .embeddedServiceHelpButton .helpButton .uiButton {
+        background-color: #005290;
+        font-family: "Arial", sans-serif;
+    }
+    .embeddedServiceHelpButton .helpButton .uiButton:focus {
+        outline: 1px solid #005290;
+    }
+</style> <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+<script type='text/javascript'>
+    var initESW = function(gslbBaseURL) {
+        embedded_svc.settings.displayHelpButton = true; //Or false
+        embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'         //embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
+        //embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)         //embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
+        //embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)         embedded_svc.settings.enabledFeatures = [];
+        embedded_svc.settings.entryFeature = '';         embedded_svc.init(
+            'https://mercedes-scloud-dev-ed.my.salesforce.com',
+            'https://mbusa-atcs-developer-edition.ap16.force.com/mercedesbenz',
+            gslbBaseURL,
+            '00D2w00000CoNQh',
+            'Vinal',
+            {
+                
+            }
+        );
+    };     if (!window.embedded_svc) {
+        var s = document.createElement('script');
+        s.setAttribute('src', 'https://mercedes-scloud-dev-ed.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+        s.onload = function() {
+            initESW(null);
+        };
+        document.body.appendChild(s);
+    } else {
+        initESW('https://service.force.com');
+    }
+</script>
+
+<body>
+<div class="container">
+   <div class="navbar">
+         <img src="iop.png"class="logo">
+     <nav>
+      <ul>
+	     <li><a href="mainfile.html"><img src="https://www.pngitem.com/pimgs/m/192-1925872_insurance-agent-house-real-estate-business-home-insurance.png"style="height:40px;width:45px;margin-top:2px;border-radius:20px;"></a></li>
+		 
+		 <li><a href="loginform.html"><img src="https://banner2.cleanpng.com/20180418/gre/kisspng-human-resources-login-management-information-payro-track-5ad7cda3586cb1.5605091515240923233622.jpg"style="height:40px;width:45px;margin-top:2px;border-radius:20px;"></a></li>
+	  </ul>
+	  </nav>
+     </div><br><br></div>
+   <div class="loginbox">
+  <h1>Contact Us</h1>
+	  <form>
+	     <p>Name</p>
+		 <input type="text" name=""  placeholder="Enter Your name" style="padding-left: 3px;">
+		 <p>Email</p>
+		 <input type="password" name="" placeholder="Enter Your Email Address." style="padding-left: 3px;">
+		 <p>Description</p>
+		 <input type="password" name="" placeholder="Describe your issue...." style="padding-left: 3px;">
+		 
+		 <a href="cc.html"> <center><button type="button">Send</button></center></a>
+		 
+	</form>
+</div>
+
+
+
+</body>
+<footer class="site-footer demo">
+      <div>
+        <div class="row">
+          <div class="column1">
+            <h6>About</h6>
+            <p class="text-justify">EShopify <i>"All Eyes On You!!" </i>We strive to have a positive impact on customers, employees, small businesses, the economy, and communities.</p>
+          </div>
+
+          <div class="column2">
+            <h6>Address</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">Plot No. IT-A-014 at Multi Product SEZ Mahindra World City(Jaipur) Ltd.Village- Kalwara, Tehsil-Sanganer, Jaipur-302033 </a></li>
+              
+              
+            </ul>
+          </div>
+
+          <div class="column3">
+            <h6>Contact Us</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">Email:Eshopify@gmail.com</a></li>
+              <li><a href="http://scanfcode.com/contact/">Tel.No.: 0101-6782553</a></li>
+			  <li><a href="http://scanfcode.com/contact/">Tel.No.: 0101-8628462</a></li>
+              
+            </ul>
+          </div>
+        </div>
+        
+      </div><hr>
+	 
+    <div>
+        <div class="row">
+          <div ><center>
+            <p class="copyright-text" style="padding-top:10px;">Copyright &copy; 2017 All Rights Reserved by 
+         <a href="#">EShopify</a>.
+            </p></center>          </div>
+
+          <div style="padding-top:10px;"><center>
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul></center>
+          </div>
+        </div>
+      </div>
+	  
+</footer>
+
+</html>
